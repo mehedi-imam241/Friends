@@ -1,0 +1,30 @@
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 4px;
+  color: var(--primary);
+  font-size: 20px;
+  background: white;
+  padding: 10px 30px 10px 30px;
+  border: solid var(--primary) 2px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: var(--primary);
+  text-decoration: none;
+  color: white;
+  transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+}
+.btn:active {
+  top: 3px;
+  cursor: pointer;
+  transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  outline: none;
+  border: none;
+}
+.btn:focus {
+  outline: 0;
+}

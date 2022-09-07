@@ -1,0 +1,87 @@
+a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: bold;
+  margin: 4px;
+}
+.LoginContainer {
+  width: 100%;
+  height: auto;
+}
+a img {
+  width: 50px;
+}
+.register-form {
+  width: 45%;
+  min-width: 300px;
+  margin: auto;
+  margin-top: 86px;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.09);
+  background-color: transparent;
+  border-radius: 10px;
+  border-top: 5px solid var(--primary);;
+  padding-bottom: 15px;
+}
+.register-logo {
+  margin-top: 25px;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.register-form h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--primary);
+  text-align: center;
+}
+
+p.addressP {
+  font-size: 15px;
+  color: #808080;
+  margin-top: 11px;
+  margin-bottom: 19px;
+  text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  height: 35px;
+  display: block;
+  background: #efefef;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  margin: auto;
+  margin-bottom: 12px;
+}
+input::placeholder {
+  font-size: 1rem;
+  color: var(--secondary);
+  font-weight: light;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.loginP {
+  margin-top: 17px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+.loginP .register-link {
+  color: var(--secondary);
+  font-weight: bold;
+  cursor: pointer;
+}
+.loginP .register-link:hover {
+  color: var(--primary);
+}
